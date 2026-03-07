@@ -3,44 +3,76 @@
   <head>
     <meta charset="UTF-8">
     <title>Lugar que quero conhecer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet">
     <link rel="stylesheet" href="akira.css">
   </head>
   <body>
 
-    <header>
-      <h1>Lugar que tenho vontade de conhecer</h1>
-    </header>
+    <main class="container">
+      <article class="info-sobre">
+        <h1 class="titulo-pagina">Lugar que tenho vontade de conhecer</h1>
+        <section class="section-text-block">
+          <h2 class="titulo-secao">Sobre o aluno</h2>
+          <p class="subtitulo-secao">
+            Nome: Henrique Akira Komati
+            <br><br>
+            Turma: 2ºF
+          </p>
+        </section>
+      </article>
 
-    <main>
-      <section id="aluno">
-        <h2>Sobre o aluno</h2>
-        <p>Nome: <strong>Henrique Akira Komati</strong></p>
-        <p>Turma: 2ºF</p>
-      </section>
-
-      <section id="lugar">
-        <h2>O lugar dos meus sonhos</h2>
-        <p><strong>Nome do lugar:</strong> Suíça</p>
-        <p><strong>Por que quero conhecer esse lugar?</strong></p>
-        <p>
-          Eu gostaria de conhecer a Suíça por causa da paisagem incrível da
-          natureza e do chocolate de alta qualidade. Eu principalmente gostaria
-          de conhecer o museu de futebol da FIFA, e visitar a fábrica de
-          chocolate da Lindt.
-        </p>
-      </section>
-
-      <section id="curiosidades">
-        <h2>Curiosidades sobre esse lugar</h2>
-        <ul>
-          <li>Bunkers obrigatórios: A Suíça é um dos únicos países onde é
-            obrigatório por lei que todos os cidadãos tenham acesso a um abrigo
-            antibomba.</li>
-          <li>Bandeira Quadrada: A bandeira suíça é uma das duas únicas
-            bandeiras nacionais quadradas do mundo (a outra é a do
-            Vaticano).</li>
-          <li>Consumo de Chocolate: Os suíços comem cerca de 9 kg de chocolate
-            por pessoa ao ano, sendo um dos maiores consumidores do mundo.</li>
+      <article class="info-sobre info-lugar">
+        <section class="section-text-block">
+          <div class="lugar-topo">
+            <section class="section-text-block">
+              <h2 class="titulo-secao">O lugar dos meus sonhos</h2>
+              <p class="subtitulo-secao">
+                Nome do lugar: Inglaterra
+                <br>
+                Por que quero conhecer esse lugar?
+              </p>
+            </section>
+            <img class="img-lugar" src="./img/englhand.png" alt="Inglaterra">
+          </div>
+          
+          <p>
+            Eu gosto bastante do futebol da Premier League e meu jogador
+            favorito é o Kaoru Mitoma, que joga pro Brighton. Então, eu gostaria
+            bastante de poder ir ao Brighton e ver ele jogando em campo. Além
+            disso, sou fã do João Pedro e Estêvão, que jogam pro Chelsea.
+          </p>
+        </section>
+      
+        <div class="galeria">
+          <div class="foto-jogador">
+            <img src="./img/joaopedro.jpg" alt="João Pedro">
+            <p>João Pedro – Chelsea</p>
+          </div>
+          <div class="foto-jogador foto-destaque">
+            <img src="./img/mitoma.jpg" alt="Kaoru Mitoma">
+            <p>Kaoru Mitoma – Brighton</p>
+          </div>
+          <div class="foto-jogador">
+            <img src="./img/estevao.jpg" alt="Estêvão">
+            <p>Estêvão – Chelsea</p>
+          </div>
+        </div>
+      </article>
+      
+      <section class="info-sobre" id="curiosidades">
+        <h2 class="titulo-secao">Curiosidades sobre esse lugar</h2>
+        <ul class="lista-curiosidades">
+          <li>Nome do Big Ben: O famoso relógio de Londres não se chama Big Ben,
+            esse é o nome do sino. A torre chama-se Elizabeth Tower.</li>
+          <li>Clima e Guarda-chuvas: Chove em cerca de 110 dos 365 dias do ano,
+            e cerca de 80 mil guarda-chuvas são perdidos no metrô de Londres
+            anualmente.</li>
+          <li>Cartão da Rainha: Ao completar 100 anos, os cidadãos recebem um
+            cartão personalizado da Rainha.</li>
         </ul>
       </section>
     </main>
