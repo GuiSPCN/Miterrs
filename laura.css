@@ -1,0 +1,40 @@
+body{
+    background-image: url(background.avif);
+}
+
+header{
+    background-color: white;
+    width: 1400px;
+    margin-top: 0px;
+    margin-left: 50px;
+    border-radius: 20px;
+    text-align: center;
+    height: 100px;
+}
+
+h1{
+   
+}
+
+section{
+    background-color: white;
+    width: 800px;
+    padding: 5px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: 350px;
+    border: 3px black solid;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer{
+    margin-bottom: 0px;
+    margin-top: 20px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+}

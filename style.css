@@ -56,3 +56,7 @@ header p {
 .card-membro span {
   flex-grow: 1;
 }
+
+#laura{
+  border-color: rgb(146, 215, 192);
+}
