@@ -1,38 +1,45 @@
 body{
     background-image: url(background.avif);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
     background-color: white;
-    width: 1400px;
-    margin-top: 0px;
-    margin-left: 50px;
+    width: 80%;
+    margin: 20px auto;
     border-radius: 20px;
     text-align: center;
-    height: 100px;
 }
 
-h1{
-   
+img{
+    vertical-align: middle;
 }
 
 section{
     background-color: white;
-    width: 800px;
+    width: 50%;
+    margin: 40px auto;
     padding: 5px;
-    margin-top: 50px;
     border-radius: 20px;
-    margin-left: 350px;
     border: 3px black solid;
+}
+
+section:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
 }
 
 h2 {
     text-align: center;
 }
 
+ul{
+    list-style-type: circle;
+}
+
 footer{
-    margin-bottom: 0px;
-    margin-top: 20px;
+    margin-bottom:  0px;
+    margin-top: 40px;
     width: 100%;
     position: absolute;
     text-align: center;
