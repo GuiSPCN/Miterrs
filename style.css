@@ -59,9 +59,7 @@ header p {
   flex-grow: 1;
 }
 
-#laura{
-  border-color: rgb(146, 215, 192);
-}
+
 #guilherme {
   background-color: var(--azul);
   border-color: var(--azul-medio);
@@ -87,4 +85,31 @@ header p {
 
 #akira:hover {
   background-color:#67ae95;
+}
+
+#laura {
+  background-color: #0f6641;
+  border-color: #67ae95;
+}
+
+#laura:hover {
+  background-color:#0f724f;
+}
+
+#adriel {
+  background-color: #5c0e0e;
+  border-color: #b10909;
+}
+
+#adriel:hover {
+  background-color:#7c0303;
+}
+
+#rafael {
+  background-color: #ec48db;
+  border-color: #e927bb;
+}
+
+#rafael:hover {
+  background-color:#d1207f;
 }
