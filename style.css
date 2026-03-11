@@ -59,6 +59,9 @@ header p {
   flex-grow: 1;
 }
 
+#laura{
+  border-color: rgb(146, 215, 192);
+}
 #guilherme {
   background-color: var(--azul);
   border-color: var(--azul-medio);

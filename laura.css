@@ -1,0 +1,47 @@
+body{
+    background-image: url(background.avif);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+img{
+    vertical-align: middle;
+}
+
+section{
+    background-color: white;
+    width: 50%;
+    margin: 40px auto;
+    padding: 5px;
+    border-radius: 20px;
+    border: 3px black solid;
+}
+
+section:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+footer{
+    margin-bottom:  0px;
+    margin-top: 40px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+}
