@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background-color: rgb(209, 191, 227);
+    color: #4a3b69; 
+    font-family: "Bitcount Prop Double Ink", system-ui, sans-serif;
+}
+
+h1 {
+    margin-left: 25px;
+    padding-top: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#aluno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#aluno h2 {
+    margin-top: 0;
+}
+
+.foto-perfil {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid #4a3b69;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+#lugar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 30px; 
+}
+
+.texto-lugar {
+    flex: 1; 
+}
+
+#lugar img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
+
+#curiosidades {
+    grid-column: 1 / 3; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.texto-curiosidades {
+    flex: 1;
+}
+
+.video {
+    flex: 1;
+    max-width: 400px; 
+    width: 100%;
+}
+
+.video iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
