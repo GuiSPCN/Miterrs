@@ -67,3 +67,21 @@ header p {
 #guilherme:hover {
   background-color: var(--azul-medio);
 }
+
+#sophia {
+  background-color: #8d76d2;
+  border-color:#7952e3;
+}
+
+#sophia:hover {
+  background-color:#8763eb ;
+}
+
+#akira {
+  background-color: #0f6641;
+  border-color: #67ae95;
+}
+
+#akira:hover {
+  background-color:#67ae95;
+}
