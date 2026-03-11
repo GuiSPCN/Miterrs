@@ -1,0 +1,149 @@
+:root {
+  --fundo-primario: #111;
+  --fundo-secundario: #1a1a1a;
+  --cor-texto: #f0f0f0;
+  --cor-destaque: #ff5758;
+  --cor-avaliacao: #f5c518;
+  --destaque-sutil: #2c2c2c;
+}
+
+body {
+  background-color: var(--fundo-secundario);
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: var(--cor-texto);
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.info-sobre {
+  background-color: var(--fundo-primario);
+  border-radius: 12px;
+  padding: 40px;
+  margin-bottom: 24px;
+}
+
+.info-lugar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.img-lugar {
+  width: 260px;
+  height: auto;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.lugar-topo {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.titulo-pagina {
+  font-size: 2.4em;
+  font-weight: 700;
+  color: var(--cor-destaque);
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.titulo-secao {
+  font-size: 1.8em;
+  font-weight: 600;
+  color: var(--cor-destaque);
+  border-left: 4px solid var(--cor-destaque);
+  padding-left: 15px;
+  margin-top: 0;
+}
+
+.subtitulo-secao {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: var(--cor-avaliacao);
+  border-left: 2px solid var(--cor-avaliacao);
+  padding-left: 15px;
+  line-height: 1.7;
+}
+
+.lista-curiosidades {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.lista-curiosidades li {
+  background-color: var(--destaque-sutil);
+  padding: 16px 20px;
+  border-radius: 8px;
+  line-height: 1.7;
+  font-size: 1em;
+  border-left: 3px solid var(--cor-destaque);
+}
+
+.galeria {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  justify-content: center;
+}
+
+.foto-jogador {
+  text-align: center;
+}
+
+.foto-jogador img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid var(--cor-destaque);
+}
+
+.foto-jogador p {
+  margin-top: 6px;
+  font-size: 0.8em;
+  color: var(--cor-avaliacao);
+}
+
+.foto-destaque img {
+  width: 260px;
+  height: 260px;
+  border-color: var(--cor-avaliacao);
+  box-shadow: 0 0 10px rgba(245, 197, 24, 0.4);
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  color: rgba(240, 240, 240, 0.4);
+  font-size: 0.9em;
+}
+
+@media (max-width: 640px) {
+  .info-lugar {
+    flex-direction: column;
+  }
+
+  .img-lugar {
+    width: 100%;
+  }
+
+  .titulo-pagina {
+    font-size: 1.8em;
+  }
+
+  .info-sobre {
+    padding: 25px;
+  }
+}
